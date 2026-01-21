@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { DONATION_ITEMS } from "../lib/constants";
 import DonationCard from "../components/features/DonationCard";
 import GalleryCarousel from "../components/features/GalleryCarousel";
+import FAQBox from "../components/features/FAQBox";
 
 const HomePage = () => {
   return (
@@ -134,6 +135,39 @@ const HomePage = () => {
 
         <div className="relative max-w-360 mx-auto h-full flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 z-20">
           <GalleryCarousel />
+        </div>
+      </section>
+
+      <section className="bg-[#EDEDBC] py-10 sm:py-14 md:py-16 lg:py-20 px-4 sm:px-6 md:px-12 lg:px-20">
+        <div className="max-w-360 mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-[#21272A] font-forum text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-8 md:mb-10 lg:mb-12">
+              FAQs
+            </h2>
+          </div>
+          <div className="max-w-225 mx-auto">
+            <FAQBox />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#EDEDBC] px-4 sm:px-6 md:px-12 lg:px-20 py-10 sm:py-14 md:py-16 lg:py-20">
+        <div className="max-w-360 mx-auto flex flex-col flex-col gap-10 md:gap-14 lg:gap-16">
+          <div className="text-center flex flex-col flex-col gap-8 md:gap-12 lg:gap-16">
+            <h2 className="text-[#21272A] font-forum text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal">
+              Sponsor
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 lg:gap-8">
+            </div>
+          </div>
+
+          <div className="text-center flex flex-col gap-8 md:gap-12 lg:gap-16">
+            <h2 className="text-[#21272A] font-forum text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal">
+              Media Partner
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 lg:gap-8">
+            </div>
+          </div>
         </div>
       </section>
     </main>

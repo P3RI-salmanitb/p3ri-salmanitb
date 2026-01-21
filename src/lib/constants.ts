@@ -36,3 +36,26 @@ export const GALLERY_IMAGES = [
   { id: 4, src: "/images/empty-img.png", alt: "Gallery Image 4" },
   { id: 5, src: "/images/empty-img.png", alt: "Gallery Image 5" },
 ];
+
+export const FAQ_DATA = [
+  {
+    id: 1,
+    question: "FAQ 1",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+  },
+  {
+    id: 2,
+    question: "FAQ 2",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+  },
+  {
+    id: 3,
+    question: "FAQ 3",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+  },
+  {
+    id: 4,
+    question: "FAQ 4",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+  },
+];
