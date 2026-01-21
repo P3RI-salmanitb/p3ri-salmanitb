@@ -73,6 +73,17 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-[#F7FFD8] p-20">
+        <div className="max-w-7xl mx-auto text-center">
+            <h2 className="text-[#21272A] font-forum text-2xl sm:text-3xl md:text-4xl lg:text-[56px] font-normal leading-tight mb-6 md:mb-10 lg:mb-12">
+              Tahun Lalu di P3RI
+            </h2>
+            <p className="text-[#21272A] font-montserrat text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-[30px] px-4">
+              Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed. Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis, pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo eleifend ultricies purus iaculis.
+            </p>
+        </div>
+      </section>
     </main>
   )
 }
