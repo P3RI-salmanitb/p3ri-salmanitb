@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react"; 
+import GalleryCarousel from "../components/features/GalleryCarousel";
 
 const HomePage = () => {
   return (
@@ -82,6 +83,31 @@ const HomePage = () => {
             <p className="text-[#21272A] font-montserrat text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-[30px] px-4">
               Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed. Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis, pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo eleifend ultricies purus iaculis.
             </p>
+        </div>
+      </section>
+
+      <section className="relative w-full sm:h-[500px] md:h-[700px] lg:h-223 overflow-hidden bg-[#F7FFD8]">
+        <div className="absolute inset-0">
+          <div className="relative w-full h-full" style={{ clipPath: 'url(#gallery-mask)' }}>
+            <Image
+              src="/images/gallery-bg.png"
+              alt="Gallery Background"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+
+        <svg width="0" height="0" className="absolute">
+          <defs>
+            <clipPath id="gallery-mask" clipPathUnits="objectBoundingBox">
+              <path d="M1,1 H0 V0 C0,0.031,0.032,0.056,0.071,0.056 C0.111,0.056,0.143,0.031,0.143,0 C0.143,0.031,0.175,0.056,0.214,0.056 C0.254,0.056,0.286,0.031,0.286,0 C0.286,0.031,0.318,0.056,0.357,0.056 C0.397,0.056,0.429,0.031,0.429,0 C0.429,0.031,0.461,0.056,0.5,0.056 C0.54,0.056,0.571,0.031,0.571,0 C0.571,0.031,0.603,0.056,0.643,0.056 C0.683,0.056,0.714,0.031,0.714,0 C0.714,0.031,0.746,0.056,0.786,0.056 C0.825,0.056,0.857,0.031,0.857,0 C0.857,0.031,0.889,0.056,0.929,0.056 C0.968,0.056,1,0.031,1,0 V1 Z" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <div className="relative max-w-360 mx-auto h-full flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 z-20">
+          <GalleryCarousel />
         </div>
       </section>
     </main>
