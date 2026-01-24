@@ -30,10 +30,10 @@ export default function GalleryCarousel() {
   };
 
   return (
-    <div className="relative w-full max-w-360 flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 py-6 sm:py-8 md:py-10">
+    <div className="relative w-full max-w-360 flex flex-col items-center justify-center gap-8 md:gap-10 lg:gap-12 py-8 md:py-10">
       
       <div className="text-center">
-        <h2 className="text-[#21272A] font-forum text-2xl sm:text-3xl md:text-4xl lg:text-[56px] font-normal">
+        <h2 className="text-[#21272A] font-forum text-3xl md:text-4xl lg:text-[56px] font-normal">
           Dokumentasi
         </h2>
       </div>
@@ -42,13 +42,13 @@ export default function GalleryCarousel() {
 
         <button
           onClick={goToPrevious}
-          className="absolute left-2 sm:left-4 md:left-6 z-30 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-[#9C4299] rounded-full flex items-center justify-center shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] hover:brightness-110 transition-all"
+          className="absolute left-2 sm:left-4 md:left-6 z-30 w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-[#9C4299] rounded-full flex items-center justify-center shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] hover:brightness-110 transition-all"
           aria-label="Previous slide"
         >
-          <ChevronLeft size={28} color="white" strokeWidth={2.5} />
+          <ChevronLeft size={24} color="white" strokeWidth={2.5} />
         </button>
 
-        <div className="relative w-full max-w-[280px] h-[200px] sm:max-w-[400px] sm:h-[280px] md:max-w-[600px] md:h-[350px] lg:max-w-[750px] lg:h-[420px] bg-[#E5E5E5] rounded-[24px] sm:rounded-[32px] md:rounded-[40px] lg:rounded-[48px] overflow-hidden shadow-[0px_4px_24px_0px_rgba(0,0,0,0.25)] z-10">
+        <div className="relative w-full max-w-[250px] h-[220px] md:max-w-[450px] md:h-[350px] lg:max-w-[750px] lg:h-[440px] bg-[#E5E5E5] rounded-[24px] sm:rounded-[32px] md:rounded-[40px] lg:rounded-[48px] overflow-hidden shadow-[0px_4px_24px_0px_rgba(0,0,0,0.25)] z-10">
           <div className="absolute inset-0 p-1">
             <div className="relative w-full h-full rounded-[24px] sm:rounded-[32px] md:rounded-[40px] lg:rounded-[48px] overflow-hidden">
               <Image
@@ -63,10 +63,10 @@ export default function GalleryCarousel() {
 
         <button
           onClick={goToNext}
-          className="absolute right-2 sm:right-4 md:right-6 z-30 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-[#9C4299] rounded-full flex items-center justify-center shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] hover:brightness-110 transition-all"
+          className="absolute right-2 sm:right-4 md:right-6 z-30 w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-[#9C4299] rounded-full flex items-center justify-center shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] hover:brightness-110 transition-all"
           aria-label="Next slide"
         >
-          <ChevronRight size={28} color="white" strokeWidth={2.5} />
+          <ChevronRight size={24} color="white" strokeWidth={2.5} />
         </button>
 
       </div>
@@ -76,9 +76,9 @@ export default function GalleryCarousel() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-2 md:h-3 rounded-full transition-all ${
+            className={`w-2 h-2 md:h-3 rounded-full transition-all ${
               index === currentIndex
-                ? "bg-[#21272A] w-6 md:w-8"
+                ? "bg-[#21272A] w-5 md:w-8"
                 : "bg-[#21272A] opacity-30 w-2 md:w-3"
             }`}
             aria-label={`Go to slide ${index + 1}`}

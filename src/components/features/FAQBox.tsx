@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { FAQ_DATA } from "../../lib/constants";
 
-const FAQAccordion = () => {
+const FAQBox = () => {
   const [openId, setOpenId] = useState<number | null>(null);
 
   const toggleFAQ = (id: number) => {
@@ -21,17 +21,17 @@ const FAQAccordion = () => {
             onClick={() => toggleFAQ(faq.id)}
             className="w-full flex items-center justify-between p-3 sm:p-4 text-left transition-colors"
           >
-            <h3 className="text-[--color-text-body] font-montserrat text-base sm:text-lg md:text-xl font-medium pr-2">
+            <h3 className="text-[#21272A] font-montserrat text-base sm:text-lg md:text-xl font-medium pr-2">
               {faq.question}
             </h3>
-            <div className="text-[--color-text-body] text-xl sm:text-2xl font-bold flex-shrink-0">
+            <div className="text-[#21272A] text-xl sm:text-2xl font-bold flex-shrink-0">
               {openId === faq.id ? "−" : "+"}
             </div>
           </button>
           
           {openId === faq.id && (
             <div className="px-3 sm:px-4 md:px-6 pb-3 sm:pb-4 md:pb-6">
-              <p className="text-[--color-text-body] font-montserrat text-sm sm:text-base leading-relaxed">
+              <p className="text-[#21272A] font-montserrat text-sm sm:text-base leading-relaxed">
                 {faq.answer}
               </p>
             </div>
@@ -42,4 +42,4 @@ const FAQAccordion = () => {
   );
 };
 
-export default FAQAccordion;
+export default FAQBox
