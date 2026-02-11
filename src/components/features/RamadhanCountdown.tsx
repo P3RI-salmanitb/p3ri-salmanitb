@@ -33,7 +33,7 @@ function CountdownUnit({ value, label }: { value: number; label: string }) {
           {String(value).padStart(2, "0")}
         </span>
       </div>
-      <span className="font-montserrat text-[10px] font-semibold uppercase tracking-wider text-white/80 md:text-xs">
+      <span className="font-montserrat text-[10px] font-semibold uppercase tracking-wider text-white md:text-xs drop-shadow-sm">
         {label}
       </span>
     </div>
@@ -81,25 +81,25 @@ export default function RamadhanCountdown() {
 
   return (
     <div className="flex flex-col items-start gap-2 md:gap-3">
-      <p className="font-montserrat text-xs font-semibold uppercase tracking-widest text-white/70 md:text-sm">
+      <p className="font-montserrat text-xs font-semibold uppercase tracking-widest text-white md:text-sm drop-shadow-sm">
         Menuju Ramadhan 1447 H
       </p>
       <div className="flex gap-2 md:gap-3 lg:gap-4">
         <CountdownUnit value={timeLeft.days} label="Hari" />
         <div className="flex items-center pt-0 pb-5 md:pb-6">
-          <span className="font-forum text-2xl text-white/60 md:text-3xl">
+          <span className="font-forum text-2xl text-white/80 md:text-3xl drop-shadow-sm">
             :
           </span>
         </div>
         <CountdownUnit value={timeLeft.hours} label="Jam" />
         <div className="flex items-center pt-0 pb-5 md:pb-6">
-          <span className="font-forum text-2xl text-white/60 md:text-3xl">
+          <span className="font-forum text-2xl text-white/80 md:text-3xl drop-shadow-sm">
             :
           </span>
         </div>
         <CountdownUnit value={timeLeft.minutes} label="Menit" />
         <div className="flex items-center pt-0 pb-5 md:pb-6">
-          <span className="font-forum text-2xl text-white/60 md:text-3xl">
+          <span className="font-forum text-2xl text-white/80 md:text-3xl drop-shadow-sm">
             :
           </span>
         </div>

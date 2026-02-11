@@ -14,12 +14,12 @@
   --color-background-section: #ededbc;
 
   --color-text-main: #21272a;
-  --color-text-muted: #8f9f00;
+  --color-text-muted: #5D6800;
   --color-text-highlight: #ADCD61;
   
   --color-brand-purple: #9C4299;
   --color-brand-purple-dark: #7B1F78;
-  --color-hero-bg: #91AE4C;
+  --color-hero-bg: #7A9440;
   --color-status-warning: #FFD640;
   
   --color-text-gray: #52525B;
@@ -36,7 +36,7 @@
   --color-border: #e4e4e7;
   
   --color-muted: #f4f4f5;
-  --color-muted-foreground: #8F9F00; /* Matching text-muted */
+  --color-muted-foreground: #5D6800; /* Matching text-muted */
   
   --color-accent-hover: #FFB800;
   --color-brand-purple-hover: #8014A6;

@@ -81,11 +81,11 @@ export default function Home() {
 
         <div className="relative w-full mx-auto h-full pl-8 sm:pl-12 md:pl-16 lg:pl-20 pr-10 lg:pr-10 xl:pr-16 flex items-end lg:items-center justify-start lg:justify-end pb-12 md:pb-18">
           <div className="w-150 flex flex-col gap-5 md:gap-6 lg:gap-8">
-            <h1 className="text-white font-forum text-[56px] lg:text-[68px] font-normal leading-none">
+            <h1 className="text-white font-forum text-[56px] lg:text-[68px] font-normal leading-none drop-shadow-md">
               Ramadhan dan Idul Adha bersama P3RI
             </h1>
             <RamadhanCountdown />
-            <p className="text-white/90 font-montserrat text-sm lg:text-lg font-medium leading-normal">
+            <p className="text-white font-montserrat text-sm lg:text-lg font-medium leading-normal drop-shadow-sm">
               Sambut Ramadhan 1447 H dan rangkaian Idul Adha bersama
               program-program P3RI Masjid Salman ITB. Dari terawih berjamaah,
               berbagi buka, hingga festival Ramadhan — mari hidupkan semangat
