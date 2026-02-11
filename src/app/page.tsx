@@ -7,6 +7,7 @@ import ProgramCard from "../components/features/ProgramCard";
 import FAQAccordion from "../components/features/FAQBox";
 import { PROGRAMS_DATA } from "../lib/constants";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import RamadhanCountdown from "../components/features/RamadhanCountdown";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -78,16 +79,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-full mx-auto h-full pl-8 sm:pl-12 md:pl-16 lg:pl-20 pr-10 lg:pr-10 xl:pr-16 flex items-end lg:items-center justify-start lg:justify-end pb-22 md:pb-26">
-          <div className="w-150 h-[318px] flex flex-col gap-6 md:gap-8 lg:gap-12">
+        <div className="relative w-full mx-auto h-full pl-8 sm:pl-12 md:pl-16 lg:pl-20 pr-10 lg:pr-10 xl:pr-16 flex items-end lg:items-center justify-start lg:justify-end pb-12 md:pb-18">
+          <div className="w-150 flex flex-col gap-5 md:gap-6 lg:gap-8">
             <h1 className="text-white font-forum text-[56px] lg:text-[68px] font-normal leading-none">
               Ramadhan dan Idul Adha bersama P3RI
             </h1>
-            <p className="text-white font-montserrat text-sm lg:text-lg font-medium leading-normal">
-              Proin quis cras euismod sit et metus risus ut. Semper nam vel
-              morbi sit cursus tincidunt massa et a. Dolor odio parturient
-              cursus justo nunc enim, a, sit facilisi. Eleifend at ac lacus,
-              ullamcorper mauris eget tortor mollis.
+            <RamadhanCountdown />
+            <p className="text-white/90 font-montserrat text-sm lg:text-lg font-medium leading-normal">
+              Sambut Ramadhan 1447 H dan rangkaian Idul Adha bersama
+              program-program P3RI Masjid Salman ITB. Dari terawih berjamaah,
+              berbagi buka, hingga festival Ramadhan — mari hidupkan semangat
+              kebersamaan dan kebaikan.
             </p>
             <div className="flex flex-row items-center justify-start gap-3 md:gap-4">
               <Link
@@ -121,11 +123,10 @@ export default function Home() {
               Banyak kegiatan yang kami buat, spesial untuk Anda
             </h2>
             <p className="text-foreground font-montserrat text-xs md:text-lg lg:text-xl font-medium leading-normal">
-              Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum
-              sit nunc in eros scelerisque sed. Commodo in viverra nunc,
-              ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis,
-              pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo
-              eleifend ultricies purus iaculis.
+              Kami menyiapkan beragam program yang dirancang untuk memperkaya
+              pengalaman ibadah dan mempererat ukhuwah. Temukan kegiatan yang
+              sesuai untuk Anda, keluarga, maupun komunitas — dari kajian,
+              santunan, hingga festival seru sepanjang Ramadhan.
             </p>
             <div className="relative inline-block">
               <Link
@@ -228,11 +229,10 @@ export default function Home() {
             Tahun Lalu di P3RI
           </h2>
           <p className="text-foreground font-montserrat text-xs md:text-lg lg:text-xl font-medium leading-normal px-4">
-            Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum
-            sit nunc in eros scelerisque sed. Commodo in viverra nunc,
-            ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis,
-            pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo
-            eleifend ultricies purus iaculis.
+            Tahun lalu, P3RI Salman ITB berhasil melayani ribuan jamaah melalui
+            program terawih berjamaah, membagikan lebih dari 1.500 porsi makanan
+            berbuka setiap harinya, serta menyelenggarakan santunan ke panti
+            asuhan di Bandung Raya. Semoga tahun ini lebih baik lagi!
           </p>
         </div>
       </section>

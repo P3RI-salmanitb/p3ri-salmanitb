@@ -5,20 +5,32 @@ export const PROGRAMS_DATA = [
     title: "Tarhib Ramadan",
     date_display: "Ahad, 27 Maret 2022",
     location: "Halaman Masjid Salman ITB",
-    summary: "Rangkaian kegiatan menyambut datangnya bulan suci Ramadan dengan lomba-lomba, pameran, dan tabligh akbar.",
+    summary:
+      "Rangkaian kegiatan menyambut datangnya bulan suci Ramadan dengan lomba-lomba, pameran, dan tabligh akbar.",
     registration_url: "https://forms.gle/example1",
     images: [
       "/images/empty-img.png",
       "/images/empty-img.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Tarhib Ramadan merupakan serangkaian kegiatan menyambut datangnya bulan suci Ramadan sebagai wujud menyalakan kembali semangat beribadah.",
+      description:
+        "Tarhib Ramadan merupakan serangkaian kegiatan menyambut datangnya bulan suci Ramadan sebagai wujud menyalakan kembali semangat beribadah.",
       timeline: [
-        { date: "27 Maret 2022", time: "07.00 - 10.00", activity: "Tabligh Akbar", info: "Bersama Ustaz Shohib Khairi, Lc., MA." },
-        { date: "27 Maret 2022", time: "10.30 - 11.00", activity: "Stand Pameran", info: "Pameran karya unit-unit Masjid Salman ITB." }
-      ]
-    }
+        {
+          date: "27 Maret 2022",
+          time: "07.00 - 10.00",
+          activity: "Tabligh Akbar",
+          info: "Bersama Ustaz Shohib Khairi, Lc., MA.",
+        },
+        {
+          date: "27 Maret 2022",
+          time: "10.30 - 11.00",
+          activity: "Stand Pameran",
+          info: "Pameran karya unit-unit Masjid Salman ITB.",
+        },
+      ],
+    },
   },
   {
     id: 2,
@@ -26,20 +38,32 @@ export const PROGRAMS_DATA = [
     title: "Salman Charity",
     date_display: "17, 20, & 23 April 2022",
     location: "Panti Asuhan Bandung Raya",
-    summary: "Kegiatan berbagi kebahagiaan dan semangat Ramadan pada anak-anak di panti asuhan dalam bentuk santunan dan edukasi.",
+    summary:
+      "Kegiatan berbagi kebahagiaan dan semangat Ramadan pada anak-anak di panti asuhan dalam bentuk santunan dan edukasi.",
     registration_url: "https://forms.gle/example2",
     images: [
       "/images/empty-img.png",
       "/images/empty-img.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Menebarkan keberkahan dan merekatkan senyum mereka melalui donasi berharga dari para donatur.",
+      description:
+        "Menebarkan keberkahan dan merekatkan senyum mereka melalui donasi berharga dari para donatur.",
       timeline: [
-        { date: "17 April 2022", time: "Sore", activity: "LKSA Putera Harapan", info: "Santunan dan edukasi." },
-        { date: "20 April 2022", time: "Sore", activity: "Panti Asuhan Al Fitra", info: "Santunan dan edukasi." }
-      ]
-    }
+        {
+          date: "17 April 2022",
+          time: "Sore",
+          activity: "LKSA Putera Harapan",
+          info: "Santunan dan edukasi.",
+        },
+        {
+          date: "20 April 2022",
+          time: "Sore",
+          activity: "Panti Asuhan Al Fitra",
+          info: "Santunan dan edukasi.",
+        },
+      ],
+    },
   },
   {
     id: 3,
@@ -47,19 +71,26 @@ export const PROGRAMS_DATA = [
     title: "Berbagi Buka",
     date_display: "Sepanjang Bulan Ramadan",
     location: "Masjid Salman ITB & Sekitarnya",
-    summary: "Membagikan takjil dan makanan berbuka untuk jamaah dan masyarakat muslim di Bandung hingga 1500 porsi per hari.",
+    summary:
+      "Membagikan takjil dan makanan berbuka untuk jamaah dan masyarakat muslim di Bandung hingga 1500 porsi per hari.",
     registration_url: "https://forms.gle/example3",
     images: [
       "/images/empty-img.png",
       "/images/empty-img.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Membantu dan mempermudah target kegiatan pada waktu berbuka puasa dengan membagikan makanan berkualitas.",
+      description:
+        "Membantu dan mempermudah target kegiatan pada waktu berbuka puasa dengan membagikan makanan berkualitas.",
       timeline: [
-        { date: "Setiap Hari", time: "17.00 - Maghrib", activity: "Pembagian Makanan", info: "Area Masjid Salman ITB." }
-      ]
-    }
+        {
+          date: "Setiap Hari",
+          time: "17.00 - Maghrib",
+          activity: "Pembagian Makanan",
+          info: "Area Masjid Salman ITB.",
+        },
+      ],
+    },
   },
   {
     id: 4,
@@ -67,20 +98,32 @@ export const PROGRAMS_DATA = [
     title: "Festival Ramadan",
     date_display: "9-10 & 16-17 April 2022",
     location: "Kawasan Salman ITB",
-    summary: "Kegiatan sore hari di akhir pekan untuk memberikan edukasi, menyiarkan kebahagiaan, dan keberkahan Ramadan lewat lomba.",
+    summary:
+      "Kegiatan sore hari di akhir pekan untuk memberikan edukasi, menyiarkan kebahagiaan, dan keberkahan Ramadan lewat lomba.",
     registration_url: "https://forms.gle/example4",
     images: [
       "/images/empty-img.png",
       "/images/empty-img.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Menghadirkan berbagai lomba offline (Da'i Cilik, Azan) dan online (Videography, Photography) untuk menyemarakkan Ramadan.",
+      description:
+        "Menghadirkan berbagai lomba offline (Da'i Cilik, Azan) dan online (Videography, Photography) untuk menyemarakkan Ramadan.",
       timeline: [
-        { date: "9-10 April", time: "15.30", activity: "Lomba Offline", info: "Da'i Cilik dan Cerdas Cermat." },
-        { date: "16-17 April", time: "Sore", activity: "Ngabuburit", info: "Kegiatan seru sambil menunggu buka puasa." }
-      ]
-    }
+        {
+          date: "9-10 April",
+          time: "15.30",
+          activity: "Lomba Offline",
+          info: "Da'i Cilik dan Cerdas Cermat.",
+        },
+        {
+          date: "16-17 April",
+          time: "Sore",
+          activity: "Ngabuburit",
+          info: "Kegiatan seru sambil menunggu buka puasa.",
+        },
+      ],
+    },
   },
   {
     id: 5,
@@ -88,19 +131,26 @@ export const PROGRAMS_DATA = [
     title: "Terawih",
     date_display: "Malam Ramadan",
     location: "Masjid Salman ITB",
-    summary: "Ibadah malam berjamaah dengan menghadirkan imam dan qori berkualitas tingkat nasional serta khutbah yang mencerahkan.",
+    summary:
+      "Ibadah malam berjamaah dengan menghadirkan imam dan qori berkualitas tingkat nasional serta khutbah yang mencerahkan.",
     registration_url: "https://forms.gle/example5",
     images: [
       "/images/hero-bg.png",
       "/images/footer-bg.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Kegiatan ini mendukung fasilitas shalat dan ibadah lainnya yang nyaman dan kondusif bagi jamaah Salman ITB.",
+      description:
+        "Kegiatan ini mendukung fasilitas shalat dan ibadah lainnya yang nyaman dan kondusif bagi jamaah Salman ITB.",
       timeline: [
-        { date: "1 Ramadan", time: "Isya - Selesai", activity: "Tarawih Perdana", info: "Bersama Ust. Muzammil Hasballah." }
-      ]
-    }
+        {
+          date: "1 Ramadan",
+          time: "Isya - Selesai",
+          activity: "Tarawih Perdana",
+          info: "Bersama Ust. Muzammil Hasballah.",
+        },
+      ],
+    },
   },
   {
     id: 6,
@@ -108,50 +158,61 @@ export const PROGRAMS_DATA = [
     title: "I'tikaf",
     date_display: "10 Hari Terakhir Ramadan",
     location: "Masjid Salman ITB",
-    summary: "Menetap di masjid untuk memaksimalkan ibadah di sepuluh hari terakhir dengan fasilitas sahur, buka, dan qiyamul lail.",
+    summary:
+      "Menetap di masjid untuk memaksimalkan ibadah di sepuluh hari terakhir dengan fasilitas sahur, buka, dan qiyamul lail.",
     registration_url: "https://forms.gle/example6",
     images: [
       "/images/empty-img.png",
       "/images/empty-img.png",
-      "/images/empty-img.png"
+      "/images/empty-img.png",
     ],
     details: {
-      description: "Memfasilitasi jamaah untuk fokus beribadah mengejar Lailatul Qadar dengan suasana yang khusyuk.",
+      description:
+        "Memfasilitasi jamaah untuk fokus beribadah mengejar Lailatul Qadar dengan suasana yang khusyuk.",
       timeline: [
-        { date: "Malam 21-30", time: "02.00 WIB", activity: "Qiyamul Lail", info: "Imam berkualitas nasional." }
-      ]
-    }
-  }
+        {
+          date: "Malam 21-30",
+          time: "02.00 WIB",
+          activity: "Qiyamul Lail",
+          info: "Imam berkualitas nasional.",
+        },
+      ],
+    },
+  },
 ];
 
 export const DONATION_ITEMS = [
   {
     id: "sponsor",
     title: "Sponsori kegiatan kami",
-    summary: "Dengan mensponsori kegiatan kami, perusahaan anda ikut membantu melayani jamaah Salman ITB.",
+    summary:
+      "Dengan mensponsori kegiatan kami, perusahaan anda ikut membantu melayani jamaah Salman ITB.",
     image_url: "/images/empty-img.png",
-    link: "/infak"
+    link: "/infak",
   },
   {
     id: "wakaf",
     title: "Alirkan kebaikan wakaf",
-    summary: "Berbeda dengan sedekah, dengan kebermanfaatan wakaf terus mengalir meski wakaf (orang yang berwakaf) telah meninggal dunia.",
+    summary:
+      "Berbeda dengan sedekah, dengan kebermanfaatan wakaf terus mengalir meski wakaf (orang yang berwakaf) telah meninggal dunia.",
     image_url: "/images/empty-img.png",
-    link: "/infak"
+    link: "/infak",
   },
   {
     id: "zakat",
     title: "Salurkan zakatmu disini",
-    summary: "Harta kita tidak sepenuhnya milik kita, ada zakat yang harus kita salurkan. Mudah bayar zakat, sangat dekat.",
+    summary:
+      "Harta kita tidak sepenuhnya milik kita, ada zakat yang harus kita salurkan. Mudah bayar zakat, sangat dekat.",
     image_url: "/images/empty-img.png",
-    link: "/infak"
+    link: "/infak",
   },
   {
     id: "buka-puasa",
     title: "Berbagi paket buka puasa",
-    summary: "Setiap tahunnya ratusan orang baik berbagi ribuan paket berbuka. Apakah kamu salah satu dari orang baik tersebut?",
+    summary:
+      "Setiap tahunnya ratusan orang baik berbagi ribuan paket berbuka. Apakah kamu salah satu dari orang baik tersebut?",
     image_url: "/images/empty-img.png",
-    link: "/infak"
+    link: "/infak",
   },
 ];
 
@@ -166,22 +227,26 @@ export const GALLERY_IMAGES = [
 export const FAQ_DATA = [
   {
     id: 1,
-    question: "FAQ 1",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+    question: "Bagaimana cara mendaftar kegiatan P3RI?",
+    answer:
+      "Anda dapat mendaftar melalui halaman masing-masing program di website ini. Klik tombol 'Daftar' pada program yang ingin diikuti, lalu isi formulir pendaftaran yang tersedia. Beberapa kegiatan bersifat terbuka dan tidak memerlukan pendaftaran.",
   },
   {
     id: 2,
-    question: "FAQ 2",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+    question: "Di mana lokasi kegiatan P3RI dilaksanakan?",
+    answer:
+      "Sebagian besar kegiatan P3RI dilaksanakan di kawasan Masjid Salman ITB, Jl. Ganesa No.7, Bandung. Beberapa kegiatan seperti Salman Charity dilaksanakan di lokasi panti asuhan mitra di wilayah Bandung Raya.",
   },
   {
     id: 3,
-    question: "FAQ 3",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+    question: "Apakah kegiatan P3RI terbuka untuk umum?",
+    answer:
+      "Ya, seluruh kegiatan P3RI terbuka untuk umum, baik mahasiswa ITB maupun masyarakat sekitar. Kami mengundang siapa saja untuk turut meramaikan dan merasakan keberkahan Ramadhan bersama Masjid Salman ITB.",
   },
   {
     id: 4,
-    question: "FAQ 4",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio."
+    question: "Bagaimana cara berdonasi atau menjadi sponsor?",
+    answer:
+      "Anda dapat menyalurkan infak, zakat, maupun wakaf melalui halaman 'Infak & Zakat' di website ini. Untuk kerjasama sponsorship, silakan hubungi panitia P3RI melalui kontak yang tersedia di halaman tersebut.",
   },
 ];
