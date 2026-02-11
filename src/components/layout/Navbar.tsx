@@ -71,7 +71,7 @@ const Navbar = () => {
             aria-label="Home"
           >
             <Image
-              src="/images/logo-p3ri.png"
+              src="/images/logo-white.svg"
               alt="Logo P3RI"
               width={60}
               height={60}
@@ -155,7 +155,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between px-6 h-16 border-b border-secondary">
             <Link href="/" onClick={closeMenu} aria-label="Home">
               <Image
-                src="/images/logo-p3ri.png"
+                src="/images/logo-white.svg"
                 alt="Logo P3RI"
                 width={48}
                 height={48}

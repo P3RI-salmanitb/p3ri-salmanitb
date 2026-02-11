@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="flex justify-between items-center w-full md:w-auto md:flex-shrink-0">
             <Link href="/">
               <Image
-                src="/images/logo-p3ri.png"
+                src="/images/logo-white.svg"
                 alt="Logo P3RI"
                 width={60}
                 height={60}
