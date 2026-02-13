@@ -79,7 +79,7 @@ export default function ProgramDetailClient({ program }: { program: Program }) {
   return (
     <>
       {/* ─── Hero Section ─── */}
-      <section className="bg-primary relative overflow-hidden pt-24 pb-20 md:pt-32 md:pb-28 lg:pt-36 lg:pb-32">
+      <section className="bg-primary relative overflow-hidden pt-14 pb-20 md:pt-24 md:pb-28 lg:pt-28 lg:pb-32">
         {/* Decorative background */}
         <div className="pointer-events-none absolute inset-0">
           <div className="bg-hero-bg/20 absolute -top-20 -right-20 h-80 w-80 rounded-full blur-3xl" />
@@ -100,20 +100,18 @@ export default function ProgramDetailClient({ program }: { program: Program }) {
         </div>
 
         <div className="relative mx-auto max-w-6xl px-6 md:px-12 lg:px-20">
-          {/* Breadcrumb */}
-          <nav
-            aria-label="Breadcrumb"
-            className="font-montserrat mb-8 flex items-center gap-2 text-sm text-white/60"
-          >
+          {/* Back Button */}
+          <div className="mb-8 flex justify-start">
             <Link
               href="/program"
-              className="transition-colors hover:text-white"
+              className="font-montserrat group inline-flex items-center gap-2 text-sm font-medium text-white/80 transition-colors hover:text-white"
             >
-              Program
+              <div className="group-hover:bg-accent flex h-8 w-8 items-center justify-center rounded-full bg-white/10 backdrop-blur-sm transition-all group-hover:text-black">
+                <ChevronLeft size={16} />
+              </div>
+              Kembali
             </Link>
-            <ChevronRight size={14} aria-hidden="true" />
-            <span className="font-medium text-white/90">{program.title}</span>
-          </nav>
+          </div>
 
           <div className="flex flex-col items-center text-center">
             {/* Badge */}
@@ -158,23 +156,6 @@ export default function ProgramDetailClient({ program }: { program: Program }) {
               {program.summary}
             </p>
           </div>
-        </div>
-
-        {/* Bottom wave */}
-        <div className="absolute right-0 bottom-0 left-0">
-          <svg
-            viewBox="0 0 1440 80"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full"
-            preserveAspectRatio="none"
-            aria-hidden="true"
-          >
-            <path
-              d="M0 80V40C240 0 480 0 720 40C960 80 1200 80 1440 40V80H0Z"
-              fill="var(--color-background-page)"
-            />
-          </svg>
         </div>
       </section>
 
